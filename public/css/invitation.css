@@ -1,0 +1,21 @@
+main {
+  max-width: 480px;
+  background-color: #eee;
+}
+
+.intro {
+  position: fixed;
+  top: 0; /* 상단에 고정 */
+  left: 50%; /* 가로 중앙 정렬을 위해 왼쪽에서 50%의 위치에 배치 */
+  transform: translateX(-50%); /* 요소의 너비의 절반만큼 왼쪽으로 이동하여 실제 중앙에 위치하도록 조정 */
+  width: 480px; /* 너비를 480px로 설정 */
+  max-width: 100%; /* 뷰포트 너비가 480px보다 작을 경우, 요소의 최대 너비를 100%로 조정하여 뷰포트에 맞춤 */
+  height: 100%; /* 높이를 뷰포트의 100%로 설정 */
+  background-color:#fff0f0;
+}
+
+.name-space p {
+  display:none;
+  margin:0px;
+}
+
